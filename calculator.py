@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a = float(input("Write the first number:"))
 b = float(input("Write the second number:"))
 
@@ -13,4 +14,31 @@ if option == 1:
 
 elif option == 2: 
    result = a - b
+=======
+a = float(input("Write the first number:"))
+b = float(input("Write the second number:"))
+
+print("Choose an option:")
+print("1/Sum.")
+print("2/Sumtract.")
+print("3/Multiplication")
+print("4/Division")
+
+option = int(input("Enter 1 or 2:"))
+
+if option == 1: 
+   result = a + b
+   print(f"The result is {result}.")
+
+elif option == 2: 
+   result = a - b
+   print(f"The result is {result}.")
+
+elif option == 3:
+   result = a*b 
+   print(f"The result is {result}.")
+
+elif option == 4:
+   result = a / b
+>>>>>>> 45ca2ff (I added multiplication and division)
    print(f"The result is {result}.")
